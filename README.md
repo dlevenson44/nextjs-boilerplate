@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## NextJS Boilerplate
 
-## Getting Started
+This is a boilerplate NextJS project that has prettier and linting config setup to my preferences.  It also has the needed packages for unit and end to end testing using RTL/Jest and Cypress, respectfully.  We also have MUI setup for styling, and lodash is included as well.
 
-First, run the development server:
+This project is intended to act as a base for all future projects.  After all, who wants to setup linters, prettier, tests, and MUI over and over?
+
+Please run `yarn install` to install needed dependencies.  below are a list of support commands:
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn build (build app)
+yarn dev (dev mode)
+yarn start (prod mode)
+
+yarn lint (runs linter)
+yarn test (runs unit tests)
+yarn cypress (runs e2e tests)
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
