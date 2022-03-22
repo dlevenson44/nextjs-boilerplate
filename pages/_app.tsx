@@ -1,8 +1,16 @@
-import '../styles/globals.css'
+import { ThemeProvider } from '@mui/material//styles'
+import CssBaseline from '@mui/material/CssBaseline'
 import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import { theme } from '~/styles/theme'
+
+function MyApp({ Component, pageProps }: AppProps): React.ReactNode {
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Component {...pageProps} />
+    </ThemeProvider>
+  )
 }
 
 export default MyApp

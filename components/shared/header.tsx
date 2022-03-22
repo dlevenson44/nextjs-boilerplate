@@ -10,6 +10,7 @@ const Header: React.FC<HeaderProps> = ({ pageTitle }) => {
   return (
     <>
       <Head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>{pageTitle}</title>
       </Head>
       <div data-testid="header_wrapper"></div>
