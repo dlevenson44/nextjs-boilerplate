@@ -29,11 +29,14 @@
     "incremental": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "cypress/**/*"
   ],
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
     "cypress/integration/app.spec.ts"
-  ]
+  ],
 }
