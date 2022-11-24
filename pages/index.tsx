@@ -5,6 +5,7 @@ const Home: NextPage = () => {
   return (
     <div data-testid="home_wrapper">
       <Header pageTitle="root" />
+      <div>Hello world!</div>
     </div>
   )
 }
