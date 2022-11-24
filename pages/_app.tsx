@@ -1,16 +1,7 @@
-import { ThemeProvider } from '@mui/material//styles'
-import CssBaseline from '@mui/material/CssBaseline'
 import type { AppProps } from 'next/app'
 
-import { theme } from '~/styles/theme'
-
 function MyApp({ Component, pageProps }: AppProps): React.ReactNode {
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Component {...pageProps} />
-    </ThemeProvider>
-  )
+  return <Component {...pageProps} />
 }
 
 export default MyApp
